@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.adrienlebret.personalfinance">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/my_icon_personal_finance"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="Personal Finance">
+        </activity>
+        <activity
+            android:name=".AddIncomeActivity"
+            android:label="Add Income"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AddExpenseActivity"
+            android:label="Add Expense"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".IncomeListActivity"
+            android:label="Income List"
+            android:parentActivityName=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".ListViewFinanceActivity" />
+        <activity android:name=".FinancialSituationActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

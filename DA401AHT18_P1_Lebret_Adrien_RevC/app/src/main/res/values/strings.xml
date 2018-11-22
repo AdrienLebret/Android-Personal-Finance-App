@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Personal Finance</string>
+    <string-array name="income_catagoty">
+        <item>Salary</item>
+        <item>Loan</item>
+        <item>Sales</item>
+    </string-array>
+    <string-array name="expense_catagoty">
+        <item>Drinks</item>
+        <item>Education</item>
+        <item>Food</item>
+        <item>Health</item>
+        <item>Hotel</item>
+        <item>Other</item>
+        <item>Personal</item>
+        <item>Tips</item>
+        <item>Transport</item>
+    </string-array>
+</resources>

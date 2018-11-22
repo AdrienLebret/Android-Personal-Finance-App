@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0D9500"
+    tools:context=".IncomeListFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:background="#fff"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/buttonDateFrom"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="From :" />
+
+        <TextView
+            android:id="@+id/dateFrom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:text=""
+            android:textColor="#212121"
+            android:textSize="15dp"/>
+
+
+        <Button
+            android:id="@+id/buttonDateTo"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="To :" />
+
+        <TextView
+            android:id="@+id/dateTo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text=""
+            android:textColor="#212121"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/buttonResearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Research " />
+    </RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/incomeLV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#fff"
+        android:dividerHeight="1dp">
+
+    </ListView>
+</LinearLayout>

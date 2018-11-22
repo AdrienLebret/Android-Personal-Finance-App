@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categoryExpense">
+        <item>Food</item>
+        <item>Leisure</item>
+        <item>Travel</item>
+        <item>Accomodation</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="categoryIncome">
+        <item>Salary</item>
+        <item>Other</item>
+    </string-array>
+
+</resources>
